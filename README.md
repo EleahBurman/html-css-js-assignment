@@ -3,7 +3,7 @@
 A single-page site built with vanilla HTML, CSS, and JavaScript to practice core web fundamentals: page structure, layout without CSS, the box model, font sizing units, and CSS positioning.
 
 **Live site:** 
-
+[https://eleahburman.github.io/html-css-js-assignment/](https://eleahburman.github.io/html-css-js-assignment/)
 ---
 
 ## Structure
