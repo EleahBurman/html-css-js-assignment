@@ -15,3 +15,26 @@
 .r3c1 { padding: 0px; }
 .r3c2 { padding: 5px; }
 .r3c3 { padding: 10px; }
+
+.positioning-demo { position: relative; height: 200px; background: #eee; }
+
+.static-box { position: static; } /* default: normal document flow */
+
+.relative-box {
+  position: relative;
+  top: 20px;
+  left: 30px; /* shifted from where it would normally sit, but still takes up original space */
+}
+
+.absolute-box {
+  position: absolute;
+  top: 10px;
+  right: 10px; /* removed from flow, positioned relative to .positioning-demo */
+}
+
+.fixed-box {
+  position: fixed;
+  bottom: 10px;
+  right: 10px; /* stays fixed in viewport even when scrolling */
+  background: yellow;
+}
