@@ -3,7 +3,8 @@
 }
 body {
   margin: 0;
-  overflow-x: hidden; /* temporary bandaid to confirm this is the issue */
+  overflow-x: hidden;
+  padding: 0 20px;
 }
 
 nav ul {
